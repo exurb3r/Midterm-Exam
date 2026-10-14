@@ -1,10 +1,7 @@
 "use client";
-import { createTheme } from "@mui/material/styles";
-import { keyframes } from "@mui/system";
+import { createTheme, keyframes } from "@mui/material/styles";
 
 import { typography } from "./config.theme.typography";
-
-// Gentle pulse for loading skeletons.
 const skeletonKeyframe = keyframes`
   0% { opacity: 1; }
   50% { opacity: 0.45; }
